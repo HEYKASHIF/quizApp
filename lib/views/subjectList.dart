@@ -39,7 +39,7 @@ class subjectList extends StatelessWidget {
                       textColor: Colors.white,
                       iconColor: Colors.white,
                       title: Text(e['subject_name']),
-                      trailing: Icon(Icons.arrow_circle_right),
+                      trailing: Icon(Icons.arrow_downward),
                     ),
                   ),
                 )
