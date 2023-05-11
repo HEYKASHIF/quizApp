@@ -23,12 +23,15 @@ class subjectList extends StatelessWidget {
           children: [
             ...subjectListData
                 .map(
-                  (e) => ListTile(
-                    tileColor: Colors.teal,
-                    textColor: Colors.white,
-                    iconColor: Colors.white,
-                    title: Text(e['subject_name']),
-                    trailing: Icon(Icons.arrow_circle_right),
+                  (e) => Padding(
+                    padding: const EdgeInsets.only(bottom: 8),
+                    child: ListTile(
+                      tileColor: Colors.teal,
+                      textColor: Colors.white,
+                      iconColor: Colors.white,
+                      title: Text(e['subject_name']),
+                      trailing: Icon(Icons.arrow_circle_right),
+                    ),
                   ),
                 )
                 .toList()
