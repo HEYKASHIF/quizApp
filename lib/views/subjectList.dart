@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:quizapp/views/quizScreen.dart';
 
 class subjectList extends StatelessWidget {
   const subjectList({super.key});
@@ -26,6 +27,14 @@ class subjectList extends StatelessWidget {
                   (e) => Padding(
                     padding: const EdgeInsets.only(bottom: 8),
                     child: ListTile(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => quizScreen(),
+                          ),
+                        );
+                      },
                       tileColor: Colors.teal,
                       textColor: Colors.white,
                       iconColor: Colors.white,
