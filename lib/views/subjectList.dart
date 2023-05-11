@@ -3,6 +3,12 @@ import 'package:flutter/material.dart';
 
 class subjectList extends StatelessWidget {
   const subjectList({super.key});
+  final List subjectListData = const [
+    {'subject_name': 'hindi', 'subject_id': '1001'},
+    {'subject_name': 'English', 'subject_id': '1002'},
+    {'subject_name': 'Science', 'subject_id': '1003'},
+    {'subject_name': 'Math', 'subject_id': '1004'},
+  ];
 
   @override
   Widget build(BuildContext context) {
