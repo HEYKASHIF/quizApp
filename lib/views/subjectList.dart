@@ -16,7 +16,7 @@ class subjectList extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('QUIZ'),
+        title: Text('Lets play QUIZ'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
