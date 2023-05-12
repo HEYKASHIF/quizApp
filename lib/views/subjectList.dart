@@ -35,7 +35,7 @@ class subjectList extends StatelessWidget {
                           ),
                         );
                       },
-                      tileColor: Colors.teal,
+                      tileColor: Colors.indigo,
                       textColor: Colors.white,
                       iconColor: Colors.white,
                       title: Text(e['subject_name']),
