@@ -9,6 +9,8 @@ class bootCamp extends StatelessWidget {
       backgroundColor: Colors.teal,
       body: SafeArea(
         child: Container(
+          height: 100,
+          width: 100,
           color: Colors.white,
           child: Text('hyy Kashif'),
         ),
