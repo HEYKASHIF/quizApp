@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:quizapp/bootcamp.dart';
 import 'package:quizapp/views/quizScreen.dart';
 
 class subjectList extends StatelessWidget {
@@ -31,7 +32,7 @@ class subjectList extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => quizScreen(),
+                            builder: (context) => bootCamp(),
                           ),
                         );
                       },
