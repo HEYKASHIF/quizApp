@@ -5,8 +5,14 @@ class bootCamp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.black,
+    return Scaffold(
+      backgroundColor: Colors.teal,
+      body: SafeArea(
+        child: Container(
+          color: Colors.white,
+          child: Text('hyy Kashif'),
+        ),
+      ),
     );
   }
 }
