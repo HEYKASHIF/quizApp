@@ -8,13 +8,22 @@ class bootCamp extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.teal,
       body: SafeArea(
-        child: Container(
-          height: 100,
-          width: 100,
-          color: Color.fromARGB(255, 171, 6, 216),
-          child: Center(child: Text('Hyy Kashif')),
-        ),
-      ),
+          child: Column(
+        children: [
+          Container(
+            height: 100,
+            width: 100,
+            color: Color.fromARGB(255, 171, 6, 216),
+            child: Center(child: Text('Hyy Kashif')),
+          ),
+          Container(
+            height: 100.0,
+            width: 100.0,
+            color: Colors.white,
+            child: Text('Conainer 2'),
+          ),
+        ],
+      )),
     );
   }
 }
