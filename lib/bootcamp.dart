@@ -10,7 +10,8 @@ class bootCamp extends StatelessWidget {
       body: SafeArea(
           child: Column(
         // mainAxisSize: MainAxisSize.min,
-        verticalDirection: VerticalDirection.up,
+        // verticalDirection: VerticalDirection.up,
+        mainAxisAlignment: MainAxisAlignment.end,
         children: [
           Container(
             height: 100,
