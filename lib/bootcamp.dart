@@ -9,6 +9,8 @@ class bootCamp extends StatelessWidget {
       backgroundColor: Colors.teal,
       body: SafeArea(
           child: Column(
+        mainAxisSize: MainAxisSize.min,
+        verticalDirection: VerticalDirection.down,
         children: [
           Container(
             height: 100,
