@@ -11,7 +11,8 @@ class bootCamp extends StatelessWidget {
           child: Column(
         // mainAxisSize: MainAxisSize.min,
         // verticalDirection: VerticalDirection.up,
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        // mainAxisAlignment: MainAxisAlignment.spaceAround,
+        crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           Container(
             height: 100,
@@ -21,7 +22,7 @@ class bootCamp extends StatelessWidget {
           ),
           Container(
             height: 100.0,
-            width: 100.0,
+            width: 250.0,
             color: Colors.white,
             child: Center(child: Text('Conainer 2')),
           ),
@@ -31,6 +32,15 @@ class bootCamp extends StatelessWidget {
             color: Colors.red,
             child: Center(child: Text('Conainer 3')),
           ),
+          Container(
+            height: 100.0,
+            width: 250.0,
+            color: Colors.white,
+            child: Text('Conainer 4'),
+          ),
+          Container(
+            width: double.infinity,
+          )
         ],
       )),
     );
