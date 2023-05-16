@@ -11,7 +11,7 @@ class bootCamp extends StatelessWidget {
           child: Column(
         // mainAxisSize: MainAxisSize.min,
         // verticalDirection: VerticalDirection.up,
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
             height: 100,
