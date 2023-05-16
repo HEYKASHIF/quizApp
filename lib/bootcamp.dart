@@ -11,8 +11,6 @@ class bootCamp extends StatelessWidget {
         child: Container(
           height: 100,
           width: 100,
-          margin: EdgeInsets.symmetric(vertical: 350, horizontal: 150),
-          padding: EdgeInsets.all(10),
           color: Color.fromARGB(255, 171, 6, 216),
           child: Center(child: Text('Hyy Kashif')),
         ),
