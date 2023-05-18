@@ -28,13 +28,13 @@ class bootCamp extends StatelessWidget {
           ),
           Container(
             height: 100.0,
-            width: 325.0,
+            width: 350.0,
             color: Colors.red,
             child: Center(child: Text('Conainer 3')),
           ),
           Container(
             height: 100.0,
-            width: 375.0,
+            width: 420.0,
             color: Colors.white,
             child: Text('Conainer 4'),
           ),
