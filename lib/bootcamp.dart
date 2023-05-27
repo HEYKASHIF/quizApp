@@ -34,7 +34,7 @@ class bootCamp extends StatelessWidget {
           ),
           Container(
             height: 100.0,
-            width: 420.0,
+            width: 380.0,
             color: Color.fromARGB(255, 160, 6, 207),
             child: Text('Conainer 4'),
           ),
