@@ -16,7 +16,7 @@ class bootCamp extends StatelessWidget {
         children: [
           Container(
             height: 100,
-            width: 100,
+            width: 200,
             color: Color.fromARGB(255, 171, 6, 216),
             child: Center(child: Text('Hyy Kashif')),
           ),
